@@ -22,7 +22,7 @@ const SavedBooks = () => {
   console.log(userData);
 
   // delcaring mutation to handle removing books from users savedBooks array
-  const [removeBook, { error }] = useMutation(REMOVE_BOOK);
+  const [removeBook] = useMutation(REMOVE_BOOK);
 
   
 
